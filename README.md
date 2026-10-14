@@ -31,8 +31,7 @@ between orbits was built (an orbit pair is compatible when no two words share mo
 **exact maximum-weight clique** was computed (networkx). The enumeration is complete (each orbit stored once, no
 cap reached), so 961 is the largest code invariant under G. The same method proves that the larger affine subgroups
 with |H| = 10 and |H| = 15 cannot exceed 930, and that unions of G-orbits and orbits of the |H| = 10 group together
-(12,194 orbits) also cannot exceed 961. Code: engine/problems/cwexact.py, engine/problems/cwgroups.py,
-tools/build_961.py in the reframe repository.
+(12,194 orbits) also cannot exceed 961.
 
 ## Verify
 `code_961.json` lists all 961 words. `python -I verify_cw.py code_961.json` (plain Python, no dependencies) checks
